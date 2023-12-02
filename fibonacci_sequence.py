@@ -16,3 +16,6 @@ else:
         n2=nth
         count+=1
 
+#save file
+file_name=input("Enter file name: ")
+f=open(file_name, "x")
